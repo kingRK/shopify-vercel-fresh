@@ -6,6 +6,7 @@ export default {
   },
   images: {
     formats: ['image/avif', 'image/webp'],
+   // unoptimized: true, // ← ADD THIS
     remotePatterns: [
       {
         protocol: 'https',
@@ -15,3 +16,5 @@ export default {
     ]
   }
 };
+
+
